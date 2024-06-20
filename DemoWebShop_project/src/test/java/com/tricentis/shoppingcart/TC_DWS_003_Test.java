@@ -19,5 +19,6 @@ public class TC_DWS_003_Test extends BaseClass{
 		Assert.assertEquals(msgStatus, true,"product failed to add");
 		test.log(Status.PASS, "Product has been added to cart");
 		wait.until(ExpectedConditions.invisibilityOf(homePage.getConfirmMessage()));
+		//Commiting for checking
 	}
 }
